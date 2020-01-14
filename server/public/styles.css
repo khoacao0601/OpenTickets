@@ -1,0 +1,110 @@
+.color {
+            background-color: orange;
+        }
+        .color1 {
+            background-color: white;
+        }
+.color2 {
+  background-color: purple;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.356);
+}
+body{
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+.createProjectNavBarColor{
+  background-color: lightskyblue;
+}
+.teamProject{
+  background-color: purple;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.appName h1 {
+  top: 11%;
+  position: absolute;
+  left: 6%;
+  font-size: 69px;
+  text-shadow:  0 1px 0 #ccc,
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb,
+                0 4px 0 #b9b9b9,
+                0 5px 0 #aaa,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+}
+
+
+.body-signUp {
+  padding-top: 0px;
+}
+
+
+label{
+  display: block;
+}
+
+.navbar{
+  margin: auto ;
+  width: 100% ;
+}
+.navHeight{
+  height: 7vh;
+}
+.navText{
+  margin-bottom: 0;
+  font-size: 1.5vh;
+}
+
+.projecTitleFont{
+  font-size: 20px;
+}
+
+.projectDescriptionFont{
+  font-size: 17px;
+}
+
+.projectRows{
+  height: 120px;
+}
+
+.ticketTitle{
+  font-size: 20px;
+}
+
+ listText.ticketInfo{
+  font-size: 17px;
+}
+
+.navTitle{
+  font-size: 3vh;
+}
+
+.detailText{
+  font-size: 20px;
+}
+
+.loginBtns{
+  width: 25vw;
+}
+
+
+.listText{
+  font-size: 2vh;
+}
+.centerHeight{
+  height: 80vh;
+}
