@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+.DS_Store
+_config.php
+sessions
+node_modules/
+server/sessions/sess_*
+server/public/main.js*
