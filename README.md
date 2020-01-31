@@ -41,7 +41,7 @@ Try the application live at https://openticket.khoacao.com
 1. Clone the repository.
 
     ```shell
-    git clone https://github.com/ziyaadm/openTicket
+    git clone https://github.com/khoacao0601/OpenTickets.git
     cd openTicket
     ```
 
