@@ -14,7 +14,7 @@ A simple bug and feature request tracker for software development teams.
 
 ## Live Demo
 
-Try the application live at [https://openticket.khoacao.com]
+Try the application live at https://openticket.khoacao.com
 
 ## Features
 - User can log in or create a new account.
