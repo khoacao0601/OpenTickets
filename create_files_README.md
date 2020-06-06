@@ -27,5 +27,3 @@ CREATE FILES
       {
         filesUrl: string
        }
-012345
-6789
