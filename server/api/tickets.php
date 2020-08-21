@@ -1,6 +1,4 @@
 <?php
-012345
-6789
 $link = get_db_link();
 
 require 'slack.php';
