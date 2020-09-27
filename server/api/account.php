@@ -12,7 +12,6 @@ $link = get_db_link();
             $response['body'] = $data;
             send($response);
     }
-0123456789
 
     function get_user() {
         if (isset($_SESSION['user_id'])) {
