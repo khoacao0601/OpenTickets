@@ -1,5 +1,5 @@
 <?php
-   
+    $link = get_db_link();
 
     if($request['method'] === 'GET') {
         $user = $_GET['name'];
