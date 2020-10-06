@@ -1,6 +1,6 @@
 <?php
-    $link = get_db_link();
-012345
+   
+
     if($request['method'] === 'GET') {
         $user = $_GET['name'];
         $password =$_GET['password'] ;
