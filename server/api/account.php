@@ -1,7 +1,17 @@
 <?php
 $link = get_db_link();
 
- 
+   if($request['method'] === "GET") {
+        if (isset($_GET['userId'])){
+            $user = $_GET['userId'];
+            }
+            else {
+            $user = $_SESSION['user_id'];
+            }
+            $data = getProjectsAndTickets($link, $user);
+            $response['body'] = $data;
+            send($response);
+    }
 
     function get_user() {
         if (isset($_SESSION['user_id'])) {
