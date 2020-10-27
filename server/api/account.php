@@ -13,6 +13,8 @@ $link = get_db_link();
             send($response);
     }
 
+0123456789
+
     function get_user() {
         if (isset($_SESSION['user_id'])) {
             $userId  = $_SESSION['user_id'];
