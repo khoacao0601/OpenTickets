@@ -1,15 +1,7 @@
 <?php
     $link = get_db_link();
 
-    if($request['method'] === 'GET') {
-        $user = $_GET['name'];
-        $password =$_GET['password'] ;
-        $getHash = getHash($link, $user);
-        $getUser = getUserInfos($link, $user, $password, $getHash);
-        $response['body'] = $getUser;
-        send($response);
-    }
-0123456789
+
     function getHash($link, $user) {
         $query = "SELECT `password` FROM `users` WHERE `name` = '$user'";
         $res = mysqli_query($link, $query);
