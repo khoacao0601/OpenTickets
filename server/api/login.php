@@ -9,7 +9,7 @@
         $response['body'] = $getUser;
         send($response);
     }
-
+0123456789
     function getHash($link, $user) {
         $query = "SELECT `password` FROM `users` WHERE `name` = '$user'";
         $res = mysqli_query($link, $query);
