@@ -10,8 +10,6 @@
         send($response);
     }
 
-12345
-
     function getHash($link, $user) {
         $query = "SELECT `password` FROM `users` WHERE `name` = '$user'";
         $res = mysqli_query($link, $query);
