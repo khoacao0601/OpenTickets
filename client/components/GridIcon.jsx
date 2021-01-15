@@ -6,4 +6,3 @@ const GridIcon = props => {
 };
 
 export default GridIcon;
-0123456789
