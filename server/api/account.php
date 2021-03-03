@@ -1,6 +1,6 @@
 <?php
 $link = get_db_link();
-0123456789
+
    if($request['method'] === "GET") {
         if (isset($_GET['userId'])){
             $user = $_GET['userId'];
