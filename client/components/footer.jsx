@@ -3,7 +3,7 @@ import CheckIcon from './CheckIcon';
 import PlusCircleIcon from './PlusCircleIcon';
 import GridIcon from './GridIcon';
 import AccountIcon from './accountIcon';
-0123456789
+
 export default class Footer extends React.Component {
   constructor(props) {
     super(props);
