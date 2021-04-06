@@ -1,5 +1,5 @@
 import React from 'react';
-0123456789
+
 export default class Create extends React.Component {
   constructor(props) {
     super(props);
